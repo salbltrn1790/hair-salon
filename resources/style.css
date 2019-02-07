@@ -35,11 +35,12 @@ body{
 }
 
 .main{
-  background-image:url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/luxy-hair-hero-image-1-1.jpg");
-  height: 500px;
+  background-image: url("file:///Users/salvadormurillo/Desktop/Nellys/resources/images/luxy-hair-hero-image-1-1.jpg");
+  height: 810px;
   background-size: cover;
+  min-width: 715px;
   background-position: center;
-  background-position: top 30%;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   border-bottom:black solid 5px;
@@ -63,6 +64,7 @@ body{
   margin-bottom:black solid 5px;
   display: flex;
   flex-direction: column;
+  padding-top:320px;
 }
 .about-content span{
   text-align: center;
@@ -260,3 +262,220 @@ body{
 .eyebrowwaxing-content p{
   font-family: 'Permanent Marker', cursive;
 }
+.price-body{
+  height: 900px;
+  width: 100%;
+}
+.prices{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.price-title p{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+/* BreakPoints */
+@media only screen and (min-width:1250px) and (max-width:1400px){
+    .about-content p{
+      width: 950px;
+    }
+    .about-content{
+      margin-left: 200px;
+    }
+    .about-content span{
+      width: 950PX;
+    }
+    .main{
+
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1249px){
+    .about-content p{
+      width: 900px;
+    }
+    .about-content{
+      margin-left: 200px;
+    }
+    .about-content span{
+      width: 900px;
+    }
+
+
+}
+
+@media only screen and (min-width:1150px) and (max-width:1199px){
+  .about-content p{
+    width: 900px;
+  }
+  .about-content{
+    margin-left: 150px;
+  }
+  .about-content span{
+    width: 900px;
+  }
+
+}
+
+@media only screen and (min-width:1100px) and (max-width:1149px){
+  .about-content p{
+    width: 900px;
+  }
+  .about-content{
+    margin-left: 150px;
+  }
+  .about-content span{
+    width: 900px;
+  }
+  .haircolor-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .haircut-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .eyebrowwax-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .services-container{
+    height: 300px;
+  }
+
+
+
+}
+
+@media only screen and (min-width:999px) and (max-width:1099px){
+  .about-content p{
+    width: 900px;
+  }
+  .about-content{
+    margin-left: 80px;
+  }
+  .about-content span{
+    width: 900px;
+  }
+  .haircolor-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .haircut-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .eyebrowwax-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .services-container{
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:998px){
+  .about-content p{
+    width: 400px;
+    height: 300px;
+    font-size: 15px;
+  }
+  .about-content{
+    margin: 0 auto;
+    height: 750px;
+    width: 400px;
+  }
+  .about-content span{
+    width: 400px;
+  }
+  .haircolor-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .haircut-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .eyebrowwax-circle{
+    width: 250px;
+    height: 250px;
+  }
+  .services-container{
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:900px){
+  .haircolor-circle{
+    width: 200px;
+    height: 200px;
+
+}
+
+.haircut-circle{
+  width: 200px;
+  height: 200px;
+}
+.eyebrowwax-circle{
+  width: 200px;
+  height: 200px;
+ }
+ .services-container{
+   height: 250px;
+ }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:699px){
+  .services-container{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .haircolor-circle{
+    width: 200px;
+    height: 200px;
+}
+.haircut-circle{
+  width: 200px;
+  height: 200px;
+}
+.eyebrowwax-circle{
+  width: 200px;
+  height: 200px;
+ }
+  .title{
+    width: 180px;
+    font-size: 10px;
+  }
+  .menu{
+    font-size: 13px;
+  }
+  .menu span{
+    padding-left: 5px;
+  }
+  .main{
+    background-position: right;
+  min-width: 900px;
+  }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:499px){
+  .about-content p{
+      font-size: 13px;
+      width: 300px;
+      height: 150px;
+    }
+
+    .about-content{
+      padding-left: 55px;
+    }
+    .about-content span{
+      width: 300px;
+    }
